@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import UserGreeting from './components/user-greeting';
+import NameListing from './components/NameListing';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting></UserGreeting>
+      {/* <UserGreeting></UserGreeting> */}
+      <NameListing></NameListing>
     </div>
   );
 }
